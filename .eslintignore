@@ -1,0 +1,12 @@
+configs/
+dll/
+flow-typed/
+babel-config.js
+node_modules/
+release/
+app/dist/
+app/cookies/
+app/main.prod.js
+app/main.prod.js.map
+app/__*.json
+app/utils/jig-tool-vocabulary.js

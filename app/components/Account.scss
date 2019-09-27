@@ -1,0 +1,89 @@
+@import "../../configs/theme.scss";
+@import "../../configs/config.scss";
+
+.play {
+  font-size: 16px;
+}
+
+.eyeball {
+  font-size: 16px;
+  margin: 0px 20px;
+}
+
+.editicon {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.saveicon {
+  font-size: 16px;
+}
+
+.deleteicon {
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.enablebutton {
+  background: #67a8da !important;
+  &:hover {
+    background: $primary-color !important;
+  }
+}
+
+.disablebutton {
+  color: red !important;
+  background: #ccc !important;
+  &:hover {
+    color: rgba(255, 0, 0, 0.5) !important;
+  }
+}
+.startbutton {
+  background: green !important;
+  &:hover {
+    background: rgba(0, 150, 0, 0.9) !important;
+  }
+}
+
+.stopbutton {
+  color: red !important;
+  &:hover {
+    color: rgba(255, 0, 0, 0.5) !important;
+  }
+}
+
+.closeicon {
+  font-size: 16px;
+  margin-left: -4px;
+  margin-right: 20px;
+}
+
+.controlbuttonarea {
+  margin-bottom: 10px !important;
+}
+
+.actionbuttons {
+  float: right;
+}
+
+.combo {
+  padding-right: 15px;
+  width: 100%;
+}
+
+.editinput {
+  width: 150px;
+}
+.lastColAccounts{
+  display: flex;
+  margin-left: 20px;
+}
+td {
+  padding: 10px 0px !important;
+  font-size: 13px;
+}
+
+th {
+  padding: 10px 0px !important;
+}

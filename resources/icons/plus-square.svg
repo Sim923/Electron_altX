@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10.002" height="10.002" viewBox="0 0 10.002 10.002">
+  <g id="plus-square" transform="translate(-2.5 -2.5)">
+    <rect id="Rectangle_15" data-name="Rectangle 15" width="9.002" height="9.002" rx="2" transform="translate(3 3)" stroke-width="1" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <line id="Line_5" data-name="Line 5" y2="4.001" transform="translate(7.501 5.501)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_6" data-name="Line 6" x2="4.001" transform="translate(5.501 7.501)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

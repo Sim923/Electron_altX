@@ -1,0 +1,113 @@
+@import "../../configs/theme.scss";
+@import "../../configs/config.scss";
+
+.play {
+  font-size: 16px;
+}
+
+.eyeball {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.editicon {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.saveicon {
+  font-size: 16px;
+}
+
+.deleteicon {
+  font-size: 16px;
+  margin-right: 0;
+}
+
+.enablebutton {
+  background: #67a8da !important;
+  &:hover {
+    background: $primary-color !important;
+  }
+}
+
+.disablebutton {
+  color: red !important;
+  background: #ccc !important;
+  &:hover {
+    color: rgba(255, 0, 0, 0.5) !important;
+  }
+}
+
+.startbutton {
+  background: green !important;
+  &:hover {
+    background: rgba(0, 150, 0, 0.9) !important;
+  }
+}
+
+.stopbutton {
+  color: red !important;
+  &:hover {
+    color: rgba(255, 0, 0, 0.5) !important;
+  }
+}
+
+.exportbutton {
+  width: 120px;
+  margin-left: 10px;
+  background: green !important;
+  &:hover {
+    background: rgba(0, 150, 0, 0.9) !important;
+  }
+}
+
+.closeicon {
+  font-size: 16px;
+  margin-left: -4px;
+  margin-right: 6px;
+}
+
+.controlbuttonarea {
+  margin-bottom: 10px !important;
+  min-height: 34px;
+  display: flex;
+  align-items: center;
+}
+
+.actionbuttons {
+  float: right;
+}
+
+.combo {
+  width: 120px;
+  margin-left: 10px;
+}
+
+.editinput {
+  width: 150px;
+}
+
+.startbutton {
+  background: green !important;
+  &:hover {
+    background: rgba(0, 150, 0, 0.9) !important;
+  }
+}
+.modalTitleWrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  h1{
+    display: flex;
+    flex: 1;
+    margin: 0px;
+  }
+  a{
+    display: flex;
+  }
+  i{
+    color: #2DBAEC;
+  }
+}

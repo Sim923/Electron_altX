@@ -1,0 +1,172 @@
+.style_setting {
+  margin-bottom: 30px;
+}
+
+.duration {
+  display: flex;
+  flex: 1;
+  .runlabel {
+    margin: 0px;
+    display: flex;
+    flex: 1;
+    color: white;
+    align-items: center;
+  }
+  h4 {
+    display: inline;
+  }
+}
+.labelWrapper{
+  display: flex;
+  flex: 1;
+  svg{
+    display: flex;
+    align-self: center;
+    margin-right: 15px;
+    width: 22px;
+    height: 18px;
+  }
+}
+.durinput {
+  display: inline-block !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  width: 80px !important;
+  .ant-input-number-input{
+    border-radius: 16px;
+  }
+}
+
+.cardcontent {
+  margin-top: 20px;
+  height: calc(100vh - 320px);
+}
+
+.targetcontent {
+  margin-top: 10px;
+  height: calc(50vh - 173px);
+}
+
+.targetbox {
+  color: black !important;
+  height: calc(100% - 30px) !important;
+}
+
+.target_container {
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.target {
+  .label {
+    margin-top: 3px;
+    display: inline-block;
+    margin-right: 30px;
+    width: 120px;
+  }
+  h4 {
+    display: inline;
+  }
+  margin-bottom: 10px;
+}
+
+.actionbutton {
+  display: inline-block;
+  position: absolute;
+  left: 275px;
+  top: 445px;
+}
+.settingsColumn{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex: 1;
+  p{
+    margin: 0px;
+    color: white;
+    font-size: 16px;
+  }
+  h3{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px;
+  }
+  h4{
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 20px 0px 15px 0px;
+  }
+  h5{
+    color: #868BA3;
+    padding-bottom: 15px;
+    font-weight: 400;
+    margin: 0px;
+    font-size: 14px;
+  }
+  &:first-child{
+    padding-left: 0px;
+  }
+  &:last-child{
+    padding-left: 15px;
+  }
+}
+.settingsDarkRow{
+  background-color: #1B2039;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  height: 71px;
+}
+.settingsLightRow{
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.settingsRow{
+  display: flex;
+  flex-direction: row;
+}
+.settingsFooterRow{
+  display: flex;
+  flex-direction: row;
+  button{
+    &:last-child{
+      margin-right: 0px;
+    }
+  }
+}
+.settingsRowCentered{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  svg{
+    margin-right: 15px;
+    width: 22px;
+    height: 18px;
+  }
+}
+.settingsRowRight{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  button{
+    margin-right: 0px;
+    margin-left: 15px;
+  }
+  p{
+    font-size: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    svg{
+      margin-right: 5px;
+      width: 9px;
+      height: 7px;
+    }
+  }
+}

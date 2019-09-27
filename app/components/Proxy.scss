@@ -1,0 +1,68 @@
+@import "../../configs/theme.scss";
+@import "../../configs/config.scss";
+
+.play {
+  font-size: 16px;
+}
+
+.startbutton {
+  background: green !important;
+  &:hover {
+    background: rgba(0, 150, 0, 0.9) !important;
+  }
+}
+
+.deletebutton {
+  border: 2px solid red !important;
+}
+
+.eyeball {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.editicon {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.saveicon {
+  font-size: 16px;
+}
+
+.deleteicon {
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.closeicon {
+  font-size: 16px;
+  padding-right: 8px;
+}
+
+.controlbuttonarea {
+  margin-bottom: 10px !important;
+  display: flex;
+  align-items: center;
+}
+
+.actionbuttons {
+  float: right;
+}
+
+.combo {
+  width: 100px;
+  margin-left: 10px;
+}
+
+.editinput {
+  width: 150px;
+}
+
+.startbutton {
+  background: green !important;
+  &:hover {
+    background: rgba(0, 150, 0, 0.9) !important;
+  }
+}
